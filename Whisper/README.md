@@ -22,23 +22,23 @@ to deactivate a virtual environment, run:
 Install pipenv package for easier package management
 
 ### Windows:
-`.\venv\bin\python -m pip install pipenv`
+`pip install pipenv`
 ### Ubuntu:
-`.venv/bin/python -m pip install pipenv`
+`pip install pipenv`
 
 Now use pipenv to install the production modules, by running 
 
 ### Windows:
-`.\venv\bin\python -m pipenv install`
+`pipenv install`
 ### Ubuntu:
-`.venv/bin/python -m pipenv install`
+`pipenv install`
 
 or install the entire dev stack by typing 
 
 ### Windows:
-`.\venv\bin\python -m pipenv install --dev`
+`pipenv install --dev`
 ### Ubuntu:
-`.venv/bin/python -m pipenv install --dev`
+`pipenv install --dev`
 
 ## Configuration
 You need to place a `.env` file in your `src` folder for configuring different environments.  
